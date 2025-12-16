@@ -1,0 +1,6 @@
+# Block all well-behaved crawlers from indexing the entire site
+User-agent: *
+Disallow: /
+
+# Note: robots.txt is advisory and relies on crawler compliance.
+# For stronger protection, require authentication or IP restrictions.
